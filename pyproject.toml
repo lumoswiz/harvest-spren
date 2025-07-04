@@ -1,0 +1,12 @@
+[project]
+name = "harvest-spren"
+version = "0.1.0"
+description = "on-chain farming"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "eth-ape[recommended-plugins]==0.8.36",
+  "ape-titanoboa==0.8.0a1",
+  "vyper==0.4.3",
+  "snekmate==0.1.2",
+]
